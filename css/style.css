@@ -1,0 +1,215 @@
+/* Reset the default browser style*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Application Style */
+
+/* General Styles*/
+body{
+	font-family: 'calibri';
+	font-size:100%; 
+}
+
+/* Home Page Styles*/
+.home-header {
+	background-image: url("../img/home-image.png");
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 30% 0 10%;
+}
+
+.home-header a {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.home-header img {
+    display: block;
+    width: 100%;
+}
+
+.home-container {
+	background-color: #00a7b0;
+	padding: 10%;
+}
+
+.home-container h2 {
+	font-size: 2.8em;
+	color: #f2f2f2;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-bottom: 20%;
+}
+
+.selector-wrapper {
+    border: 1px solid #fff;
+    width: 95%;
+    margin-bottom: 10%;
+    overflow: hidden;
+    background-image: url("../img/down-arrow-white.png");
+    background-repeat: no-repeat;
+    background-position: 97% center;
+    background-size: 25px 13px;
+    padding-right: 10px;
+}
+
+.home-container div select {
+    width: 110%;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.4em;
+    font-family: 'calibri';
+    font-weight: 300;
+    padding: 15px 20px 15px 10px;
+    border: none;
+}
+
+.home-container div select option {
+	color: #000;
+}
+
+.home-container a {
+	display: block;
+	text-decoration: none;
+	width: 100%;
+    background-color: #e8443a;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+    padding: 2% 0;
+}
+
+/* Service Page Styles*/
+.service-header {
+	background-image: url("../img/home-image.png");
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 15% 0 7%;
+}
+
+.service-header h1 {
+	text-align: center;
+	color: #f2f2f2;
+	font-size: 2em;
+}
+
+.service-header input{
+	width: 90%;
+    margin: 0 auto;
+    display: block;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-top: 13px;
+    outline: none;
+    color: #fff;
+    font-size: 1.5em;
+    font-family: 'calibri';
+    font-weight: 300;
+
+}
+
+.service-header ::-webkit-input-placeholder {
+   color: #fff;
+}
+
+.service-header :-moz-placeholder { /* Firefox 18- */
+   color: #fff;  
+}
+
+.service-header ::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+
+.service-header :-ms-input-placeholder {  
+   color: #fff;  
+}
+
+.service-container ul li a {
+	padding: 30px 0 30px 90px;
+	text-decoration: none;
+	font-size: 1.3em;
+	font-family: 'calibri';
+	font-weight: 300;
+	color: #000;
+	display: block;
+	border-bottom: 1px solid #cdc4a0;
+}
+
+.service-container .service-electrician {
+	background: url('../img/electrician-icon-small.png')no-repeat 3% center;
+}
+
+.service-container .service-plumber {
+	background: url('../img/plumber-icon-small.png')no-repeat 3% center;
+}
+
+.service-container .service-housekeeping {
+	background: url('../img/housekeeping-icon-small.png')no-repeat 3% center;
+}
+
+.service-container .service-laundry {
+	background: url('../img/laundry-icon-small.png')no-repeat 3% center;
+}
+
+.service-container .service-appliance-repair {
+	background: url('../img/appliance-repair-icon-small.png')no-repeat 3% center;
+}
+
+.service-container .service-laptop-repair {
+	background: url('../img/laptop-repair-icon-small.png')no-repeat 3% center;
+}
+
+.service-container .service-organize-event {
+	background: url('../img/organise-even-icon-small.png')no-repeat 3% center;
+}
+
+
+@media screen and (max-width: 20em) {
+  body { font-size: 80%;}
+}
